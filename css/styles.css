@@ -10,10 +10,6 @@
 	font-size: 3vw;
 }
 
-.navbar-toggler {
-	background:  #00e6ac;	
-}
-
 #home a {	
 	font-size: 120%;
 	color: #006666;
@@ -23,4 +19,9 @@
 #home a:hover{
 	background: #006666;
 	color: white;
+}
+
+#about .border-bot {
+	width: 5%;
+	border-bottom: 3px solid #006666;
 }
