@@ -21,7 +21,29 @@
 	color: white;
 }
 
+#about {
+	background: #e6fff5;
+}
+
 #about .border-bot {
-	width: 5%;
+	width: 10%;
 	border-bottom: 3px solid #006666;
+}
+
+#about p {
+	line-height: 30px;
+}
+
+.media {
+	border-bottom: 1px solid #ccccb3;
+}
+
+#education h3, #education small {
+	color: #006666;
+}
+
+#education i {
+	color: white;
+	font-size: 30px;
+	background: #006666;
 }
