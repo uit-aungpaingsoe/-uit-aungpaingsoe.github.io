@@ -6,6 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   	<script src="js/bootstrap.bundle.min.js"></script>
@@ -13,10 +14,12 @@
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
 	
 	<div class="container">
-		<nav class="navbar navbar-expand-md">
-			<a class="navbar-brand" href="#">Logo</a>
+		<nav class="navbar navbar-expand-md navbar-dark">
+			<a class="navbar-brand" href="#">
+				<img class="rounded-circle border border-dark" src="images/banner.jpg" style="width: 50px;">
+			</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation">
-				<span class="navbar-toggler-icon text-dark"></span>
+				<span class="navbar-toggler-icon"></span>
 			</button>
 
 			<div class="collapse navbar-collapse justify-content-end" id="navigation">
@@ -37,21 +40,23 @@
 			</div>
 		</nav>
 
-		<div id="home" class="banner d-flex mt-sm-5">
-			<div class="flex-fill w-50 mt-5">
+		<section id="home" data-anchor="home" class="banner d-flex mt-md-5">
+			<div class="flex-fill w-50 mt-5 ">
 				<div class="mx-3 pt-md-4">
 					<p class="medium-font">Hello!</p>
-					<p class="large-font font-weight-bold text-uppercase mt-3">I'm win htun oo,</p>
-					<p class="medium-font mt-3">Web Developer</p>
-					<a class="btn text-white font-weight-bold px-5 py-2 mt-3 hire" href="#">Hire Me</a>
+					<p class="large-font font-weight-bold text-uppercase">I'm win htun oo,</p>
+					<p class="medium-font">Web Developer</p>
+					<a class="fab fa-linkedin text-center text-decoration-none rounded-circle p-2 mr-2" href="#"></a>
+					<a class="fas fa-envelope text-center text-decoration-none rounded-circle p-2 mr-2" href="#"></a>
+					<a class="fab fa-facebook text-center text-decoration-none rounded-circle p-2 mr-2" href="#"></a>
 				</div>
 			</div>
 			<div class="flex-fill w-50 mt-5">
-				<img class="mx-auto d-block w-75 " src="images/banner.jpg">
+				<img class="mx-auto d-block w-75" src="images/banner.jpg">
 			</div>
-		</div>
+		</section>
 
-		<div id="about" class="mt-sm-5">
+		<section id="about" class="mt-5">
 			<h2 class="text-center">About Me</h2>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -59,7 +64,10 @@
 			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-		</div>
+		</section>
 	</div>
 </body>
+<script>
+	
+</script>
 </html>

@@ -1,15 +1,26 @@
-.banner {
-	height: 500px;
+.small-font {
+	font-size: 1vw;
 }
 
 .medium-font {
-	font-size: 3vw;
+	font-size: 2vw;
 }
 
 .large-font {
-	font-size: 4vw;
+	font-size: 3vw;
 }
 
-.hire {
-	background: #00e6ac;
+.navbar-toggler {
+	background:  #00e6ac;	
+}
+
+#home a {	
+	font-size: 120%;
+	color: #006666;
+	border: 1px solid #006666;
+}
+
+#home a:hover{
+	background: #006666;
+	color: white;
 }
