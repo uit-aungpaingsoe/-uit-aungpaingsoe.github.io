@@ -47,3 +47,28 @@
 	font-size: 30px;
 	background: #006666;
 }
+
+#technical-skills, #services {
+	background: #e6fff5; 
+}
+
+.progress-bar {
+	background: #367589;
+}
+
+#services ul {
+	font-size: 17px;
+}
+
+#services .fas {
+	color: #006666;
+}
+
+#services p {
+	border: 1px solid #006666;
+}
+
+#services p:hover, #experience-1:hover, #experience-2:hover, #experience-3:hover {
+	background: #006666;
+	color: white;
+}
