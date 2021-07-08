@@ -1,13 +1,17 @@
-.small-font {
-	font-size: 1vw;
+.active {
+	border-bottom: 3px solid #006666; 
 }
 
 .medium-font {
-	font-size: 2vw;
+	font-size: 30px;
 }
 
 .large-font {
-	font-size: 3vw;
+	font-size: 40px;
+}
+
+.navbar-brand img {
+	border-radius: 50%;
 }
 
 #home a {	
@@ -21,8 +25,12 @@
 	color: white;
 }
 
-#about {
+#about-me {
 	background: #e6fff5;
+}
+
+#about-me p {
+	width: 75%;
 }
 
 .border-bot {
@@ -71,4 +79,43 @@
 #services p:hover, #experience-1:hover, #experience-2:hover, #experience-3:hover {
 	background: #006666;
 	color: white;
+}
+
+#contact {
+	background: #e6fff5; 
+}
+
+#contact a, #contact p {
+	color: #006666;
+}
+
+
+@media only screen and (min-width: 700px) and (max-width: 1000px) {
+	.medium-font {
+		font-size: 20px;
+	}
+
+	.large-font {
+		font-size: 30px;
+	}
+}
+
+@media only screen and (min-width: 490px) and (max-width: 690px) {
+	#about-me p, #about-me .border-bot  {
+		margin: auto;
+	}
+}
+
+@media only screen and (min-width: 350px) and (max-width: 480px) {
+	.medium-font, .large-font {
+		font-size: 15px;
+	}
+
+	#home a {
+		font-size: 13px;
+	}
+
+	#about-me p, #about-me .border-bot  {
+		margin: auto;
+	}
 }
