@@ -65,7 +65,7 @@
 #services p {
     border: 1px solid #066;
 }
-#experience-1:hover, #experience-2:hover, #experience-3:hover, #services p:hover {
+#experience-1:hover, #experience-2:hover, #experience-3:hover, #experience-4:hover, #services p:hover {
     background: #066;
     color: #fff;
 }
